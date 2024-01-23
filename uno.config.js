@@ -19,6 +19,6 @@ export default defineConfig({
     ['f-b-c', 'flex justify-between items-center'],
     ['f-c-c', 'flex justify-center items-center'],
     ['flex-col', 'flex flex-col'],
-    ['icon-btn', 'text-5 inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-primary !outline-none'],
+    ['icon-btn', 'text-5 inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 !outline-none'],
   ],
 })

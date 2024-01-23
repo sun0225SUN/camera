@@ -19,9 +19,17 @@ function closeBox() {
 <template>
   <!-- lightbox -->
   <div v-if="boxEnable" @click="closeBox">
-    <div bg-black class="opacity-80 absolute fixed wh-full top-0 z-1" />
-    <div f-c-c absolute fixed w-full z-50>
-      <img :src="imgInfo.url" rounded-lg h-75vh alt="">
+    <div bg-black class="opacity-80 absolute fixed h-[100%] wh-full top-0 z-1" />
+    <div>
+      <div flex flex-col absolute fixed w-full items-center z-50>
+        <div>
+          <img :src="imgInfo.url" rounded-lg h-75vh alt="">
+        </div>
+        <div mt-2>
+          {{ imgInfo.desc }}
+        </div>
+      </div>
+      <div class="text-white dark:text-blue-500" f-c-c absolute w-full bottom-5vh z-50 />
     </div>
   </div>
   <!-- main -->
