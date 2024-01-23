@@ -11,6 +11,9 @@ dependencies:
   vue:
     specifier: ^3.4.0
     version: 3.4.0(typescript@5.3.3)
+  vue-lazyload:
+    specifier: ^3.0.0
+    version: 3.0.0
   vue-router:
     specifier: '4'
     version: 4.2.5(vue@3.4.0)
@@ -3964,6 +3967,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-lazyload@3.0.0:
+    resolution: {integrity: sha512-h2keL/Rj550dLgesgOtXJS9qOiSMmuJNeVlfNAYV1/IYwOQYaWk5mFJlwRxmZDK9YC5gECcFLYYj7z1lKSf9ug==}
+    dev: false
 
   /vue-router@4.2.5(vue@3.4.0):
     resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}

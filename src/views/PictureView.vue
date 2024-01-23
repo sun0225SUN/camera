@@ -35,7 +35,7 @@ function closeBox() {
   <!-- main -->
   <div mx-3 gap-4 absolute columns-1 lg:columns-4 md:columns-3 sm:columns-2 xl:columns-5>
     <div v-for="(item, index) in dataList" :key="index" @click="getInfo(item)">
-      <img mb-2 rounded w-full :src="item.url">
+      <img v-lazy="item.url" mb-2 rounded w-full>
     </div>
   </div>
 </template>

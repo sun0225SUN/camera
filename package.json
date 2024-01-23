@@ -15,6 +15,7 @@
   "dependencies": {
     "@vueuse/core": "^10.7.2",
     "vue": "^3.4.0",
+    "vue-lazyload": "^3.0.0",
     "vue-router": "4",
     "vue-silentbox": "^3.0.4"
   },
