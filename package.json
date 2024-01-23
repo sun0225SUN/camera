@@ -32,8 +32,8 @@
   },
   "lint-staged": {
     "*.{js,ts,vue,jsx,tsx}": [
-      "eslint .",
-      "eslint . --fix"
+      "eslint . --fix",
+      "eslint ."
     ]
   }
 }
